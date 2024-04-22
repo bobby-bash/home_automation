@@ -16,15 +16,15 @@
 #include "SinricProFanUS.h"
 #include <map>
 
-#define WIFI_SSID         "Try"
-#define WIFI_PASS         "k@li12345678"
-#define APP_KEY           "8e70b5e0-366b-45ec-af72-33bc246cdbdf"
-#define APP_SECRET        "01284874-3124-4616-851d-f7463ee6645c-b210c3e2-306d-43fc-95ed-99366918d413"
+#define WIFI_SSID         "wifi_name"            # edit this field
+#define WIFI_PASS         "wifi_password"        # edit this field
+#define APP_KEY           "sinricpro app key"    # edit this field
+#define APP_SECRET        "sinricpro app secret" # edit this field
 
-#define SWITCH_ID_1       "6611818d7c9e6c6fe865bec7"
+#define SWITCH_ID_1       "device ID"            # edit this field
 #define RELAYPIN_1        4
 #define SWITCHPIN_1       0
-#define FAN_ID            "66118d557c9e6c6fe865c295"
+#define FAN_ID            "Device ID"            # edit this field
 
 #define BAUD_RATE         115200                // Change baudrate to your need
 
