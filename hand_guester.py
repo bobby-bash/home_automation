@@ -9,8 +9,8 @@ headers = {
     'Content-Type': 'application/json'
 }
 data1 = {
-    'api_key': '3db612e7-ccc3-4bbb-bb00-d456830e49c7',
-    'device_id': '6611818d7c9e6c6fe865bec7',
+    'api_key': '', #your sinric pro api key
+    'device_id': '', #your sinric pro device id
     'action': 'setPowerState',
     'value': {
         'state': 'Off'
@@ -18,8 +18,8 @@ data1 = {
 }
 
 data2 = {
-    'api_key': '3db612e7-ccc3-4bbb-bb00-d456830e49c7',
-    'device_id': '6611818d7c9e6c6fe865bec7',
+    'api_key': '', #your sinric pro api key
+    'device_id': '', #your sinric pro device id
     'action': 'setPowerState',
     'value': {
         'state': 'On'
